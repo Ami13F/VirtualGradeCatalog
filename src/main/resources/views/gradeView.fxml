@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minWidth="0.0" prefHeight="25.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/8.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GradeController">
+   <top>
+      <MenuBar stylesheets="@../CSSFiles/MenuBar.css" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="addMenuItem" mnemonicParsing="false" onAction="#handleAddMenuItem" text="Note" />
+                  <MenuItem fx:id="mailMenuItem1" mnemonicParsing="false" onAction="#handleMailMenuItem" text="Mail" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Filter">
+            <items>
+              <MenuItem fx:id="filtrareMenuItemId" mnemonicParsing="false" onAction="#handleFilterMenuItem" text="Filtrare" />
+                  <MenuItem fx:id="raportMenuItem" mnemonicParsing="false" onAction="#handleRaportMenuItem" text="Raport" />
+            </items>
+          </Menu>
+        </menus>
+         <effect>
+            <InnerShadow choke="0.13" color="#3385ff" height="59.71" radius="20.5475" width="24.48" />
+         </effect>
+      </MenuBar>
+   </top>
+</BorderPane>

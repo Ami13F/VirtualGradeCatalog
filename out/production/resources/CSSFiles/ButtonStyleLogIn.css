@@ -1,0 +1,19 @@
+
+
+
+/* Hover state - trigger effect */
+.button{
+    -fx-background-color: derive(-fx-color,-40%),
+    derive(-fx-color,100%),
+    linear-gradient(to bottom,
+            #3385ff, #125766);
+    -fx-text-fill: black;
+}
+
+.button:hover {
+    -fx-background-color: derive(-fx-color,-40%),
+    derive(-fx-color,100%),
+    linear-gradient(to bottom,
+            #125766, #3385ff);
+    -fx-text-fill:  black;
+}

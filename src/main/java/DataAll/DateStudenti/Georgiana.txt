@@ -1,0 +1,6 @@
+Tema: 5
+Nota: 6.0
+Predata_in_saptamana: 5
+Deadline: 7
+Feedback: -
+

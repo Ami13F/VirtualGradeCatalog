@@ -1,0 +1,48 @@
+Tema: 1
+Nota: 10.0
+Predata_in_saptamana: 4
+Deadline: 8
+Feedback: bravo
+
+Tema: 6
+Nota: 10.0
+Predata_in_saptamana: 4
+Deadline: 4
+Feedback: Foarte bine
+
+Tema: 5
+Nota: 10.0
+Predata_in_saptamana: 6
+Deadline: 7
+Feedback: -
+
+Tema: 4
+Nota: 10.0
+Predata_in_saptamana: 5
+Deadline: 6
+Feedback: -
+
+Tema: 5
+Nota: 10.0
+Predata_in_saptamana: 6
+Deadline: 7
+Feedback: -
+
+Tema: 1
+Nota: 10.0
+Predata_in_saptamana: 7
+Deadline: 2
+Feedback: -
+
+Tema: 7
+Nota: 4.0
+Predata_in_saptamana: 7
+Deadline: 9
+Feedback: -
+
+Tema: 13
+Nota: 10.0
+Predata_in_saptamana: 14
+Deadline: 14
+Feedback: Bravo
+

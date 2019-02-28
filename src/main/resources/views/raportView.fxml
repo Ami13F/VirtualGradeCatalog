@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="700.0" minWidth="1250.0" prefHeight="700.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/8.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RaportMedieLaboratorController">
+   <children>
+      <ImageView fitHeight="719.0" fitWidth="1250.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/RaportsBackground.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" layoutX="1149.0" layoutY="39.0" maxHeight="85.0" maxWidth="85.0" minHeight="69.0" minWidth="59.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="69.0" prefWidth="59.0" style="-fx-background-radius: 100;">
+         <graphic>
+            <ImageView fitHeight="82.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/HomeIcon.png" />
+               </image>
+               <effect>
+                  <Reflection fraction="0.54" topOpacity="0.37" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="exportBtn" layoutX="1085.0" layoutY="541.0" minHeight="98.0" minWidth="81.0" mnemonicParsing="false" onAction="#handleExport" prefHeight="103.0" prefWidth="90.0" style="-fx-background-radius: 10;">
+         <graphic>
+            <ImageView fitHeight="97.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8-export-pdf-80.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <InnerShadow choke="0.24" color="#b9b9b9" height="90.25" radius="50.9725" width="115.64">
+               <input>
+                  <Reflection fraction="0.3" topOpacity="0.36" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Button>
+      <TabPane prefHeight="700.0" prefWidth="895.0" rotateGraphic="true" stylesheets="@../CSSFiles/TabPane.css" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="raportMedieLaboratorTab" text="RaportStudentLaborator">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="42.0" prefHeight="65.0" prefWidth="525.0" text="Media studentilor la laborator">
+                           <font>
+                              <Font name="System Bold Italic" size="36.0" />
+                           </font>
+                        </Label>
+                        <BarChart fx:id="barChartMedieStudentLaborator" layoutX="92.0" layoutY="81.0" prefHeight="433.0" prefWidth="556.0" stylesheets="@../CSSFiles/colorBarChar.css">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                           <effect>
+                              <Reflection bottomOpacity="0.07" fraction="0.17" topOpacity="0.09" />
+                           </effect>
+                        </BarChart>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="raportMediePerLaboratorTab" text="RaportMedieLaborator">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="38.0" prefHeight="65.0" prefWidth="525.0" text="Media notelor la laborator">
+                           <font>
+                              <Font name="System Bold Italic" size="36.0" />
+                           </font>
+                        </Label>
+                        <LineChart fx:id="lineChartMedieLaborator" layoutX="87.0" layoutY="82.0" prefHeight="447.0" prefWidth="574.0" stylesheets="@../CSSFiles/Chart.css">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                           <effect>
+                              <Reflection fraction="0.13" topOpacity="0.12" />
+                           </effect>
+                        </LineChart>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="raportPromovabilitateTab" text="RaportPromovabilitate">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="43.0" prefHeight="65.0" prefWidth="525.0" text="Studentii care intra in examen">
+                           <font>
+                              <Font name="System Bold Italic" size="36.0" />
+                           </font>
+                        </Label>
+                        <PieChart fx:id="pieChartPromovability" layoutX="155.0" layoutY="87.0" stylesheets="@../CSSFiles/PieChart.css" title="Promovabilitate">
+                           <effect>
+                              <Reflection fraction="0.26" topOpacity="0.13" />
+                           </effect>
+                        </PieChart>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+         <effect>
+            <InnerShadow color="#5f98ee" height="95.13" radius="28.5325" />
+         </effect>
+      </TabPane>
+      <Label layoutX="1089.0" layoutY="644.0" prefHeight="29.0" prefWidth="90.0" text="Export PDF">
+         <font>
+            <Font name="Franklin Gothic Demi" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

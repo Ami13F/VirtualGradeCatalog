@@ -1,0 +1,6 @@
+Tema: 13
+Nota: 10.0
+Predata_in_saptamana: 14
+Deadline: 14
+Feedback: -
+

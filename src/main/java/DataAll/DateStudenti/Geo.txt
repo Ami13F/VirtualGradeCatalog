@@ -1,0 +1,78 @@
+Tema: 10
+Nota: 10.0
+Predata_in_saptamana: 11
+Deadline: 12
+Feedback: -
+
+Tema: 1
+Nota: 10.0
+Predata_in_saptamana: 2
+Deadline: 2
+Feedback: -
+
+Tema: 2
+Nota: 10.0
+Predata_in_saptamana: 2
+Deadline: 3
+Feedback: -
+
+Tema: 3
+Nota: 10.0
+Predata_in_saptamana: 3
+Deadline: 4
+Feedback: -
+
+Tema: 4
+Nota: 10.0
+Predata_in_saptamana: 5
+Deadline: 5
+Feedback: -
+
+Tema: 5
+Nota: 10.0
+Predata_in_saptamana: 6
+Deadline: 6
+Feedback: -
+
+Tema: 6
+Nota: 10.0
+Predata_in_saptamana: 6
+Deadline: 7
+Feedback: -
+
+Tema: 7
+Nota: 10.0
+Predata_in_saptamana: 7
+Deadline: 8
+Feedback: -
+
+Tema: 8
+Nota: 10.0
+Predata_in_saptamana: 8
+Deadline: 9
+Feedback: -
+
+Tema: 9
+Nota: 10.0
+Predata_in_saptamana: 10
+Deadline: 10
+Feedback: -
+
+Tema: 11
+Nota: 7.5
+Predata_in_saptamana: 13
+Deadline: 12
+Feedback: Ai intarziat 1 saptamani
+
+Tema: 12
+Nota: 10.0
+Predata_in_saptamana: 13
+Deadline: 13
+Feedback: -
+
+Tema: 13
+Nota: 10.0
+Predata_in_saptamana: 13
+Deadline: 14
+Feedback: -
+

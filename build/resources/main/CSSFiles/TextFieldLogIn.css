@@ -1,0 +1,7 @@
+.text-field{
+    -fx-background-color: derive(-fx-color,-40%),
+    derive(-fx-color,100%),
+    linear-gradient(to bottom,
+            #3385ff, #2b3547);
+    -fx-text-fill: white;
+}

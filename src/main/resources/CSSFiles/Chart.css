@@ -1,0 +1,17 @@
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+
+}
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.chart-legend{
+    -fx-background-color: transparent;
+}

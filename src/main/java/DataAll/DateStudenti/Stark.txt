@@ -1,0 +1,18 @@
+Tema: 5
+Nota: 10.0
+Predata_in_saptamana: 6
+Deadline: 7
+Feedback: Bravo boss
+
+Tema: 3
+Nota: 1.0
+Predata_in_saptamana: 4
+Deadline: 5
+Feedback: -
+
+Tema: 10
+Nota: 8.0
+Predata_in_saptamana: 11
+Deadline: 12
+Feedback: -
+

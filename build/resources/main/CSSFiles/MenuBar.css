@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: #222;
+}
+
+.text {
+    -fx-fill: white;
+}
+
+.menu-bar {
+    -fx-background-color: derive(-fx-color,-40%),
+    derive(-fx-color,100%),
+    linear-gradient(to bottom,
+            #3385ff, #125766);
+}
+
+.menu-item {
+    -fx-background-color: #222;
+}
+
+.menu-item:hover {
+    -fx-background-color: #3399B9;
+}
+
+.menu-item:pressed {
+    -fx-background-color: #004C65;
+}
+
+.context-menu {
+    -fx-background-color: #3385ff;
+}

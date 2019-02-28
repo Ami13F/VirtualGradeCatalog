@@ -1,0 +1,12 @@
+Tema: 10
+Nota: 8.0
+Predata_in_saptamana: 11
+Deadline: 12
+Feedback: -
+
+Tema: 2
+Nota: 6.5
+Predata_in_saptamana: 4
+Deadline: 3
+Feedback: -
+

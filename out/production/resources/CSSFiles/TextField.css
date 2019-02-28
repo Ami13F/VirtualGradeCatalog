@@ -1,0 +1,8 @@
+.text-field{
+    -fx-background-color: derive(-fx-color,-40%),
+    derive(-fx-color,100%),
+    linear-gradient(to bottom,
+            #3385ff, #ffffff);
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: #666666;
+}

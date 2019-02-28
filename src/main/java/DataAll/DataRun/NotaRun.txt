@@ -1,0 +1,4 @@
+1 mor 8 4 1 Ion 222 ion@ui Dan 10.0 3
+1 mor 8 4 3 Dana 222 dana@yahoo Man4 10.0 4
+6 re 4 2 1 Ion 222 ion@ui Dan 10.0 4
+5 Lab6 8 6 1 Ion 222 ion@ui Dan 2.5 9

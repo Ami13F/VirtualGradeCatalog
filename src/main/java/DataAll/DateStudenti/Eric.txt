@@ -1,0 +1,72 @@
+Tema: 1
+Nota: 10.0
+Predata_in_saptamana: 6
+Deadline: 2
+Feedback: -
+
+Tema: 10
+Nota: 8.0
+Predata_in_saptamana: 11
+Deadline: 12
+Feedback: -
+
+Tema: 2
+Nota: 5.0
+Predata_in_saptamana: 5
+Deadline: 3
+Feedback: -
+
+Tema: 3
+Nota: 6.0
+Predata_in_saptamana: 3
+Deadline: 5
+Feedback: -
+
+Tema: 4
+Nota: 10.0
+Predata_in_saptamana: 5
+Deadline: 6
+Feedback: -
+
+Tema: 5
+Nota: 9.0
+Predata_in_saptamana: 6
+Deadline: 7
+Feedback: -
+
+Tema: 6
+Nota: 9.0
+Predata_in_saptamana: 7
+Deadline: 8
+Feedback: -
+
+Tema: 7
+Nota: 10.0
+Predata_in_saptamana: 6
+Deadline: 9
+Feedback: -
+
+Tema: 8
+Nota: 8.0
+Predata_in_saptamana: 8
+Deadline: 10
+Feedback: -
+
+Tema: 12
+Nota: 9.8
+Predata_in_saptamana: 12
+Deadline: 13
+Feedback: -
+
+Tema: 11
+Nota: 6.5
+Predata_in_saptamana: 12
+Deadline: 12
+Feedback: Schimba interfata
+
+Tema: 13
+Nota: 10.0
+Predata_in_saptamana: 12
+Deadline: 14
+Feedback: -
+

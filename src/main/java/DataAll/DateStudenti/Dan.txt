@@ -1,0 +1,48 @@
+Tema: 7
+Nota: 10.0
+Predata_in_saptamana: 9
+Deadline: 9
+Feedback: -
+
+Tema: 6
+Nota: 1.0
+Predata_in_saptamana: 12
+Deadline: 8
+Feedback: -
+
+Tema: 3
+Nota: 5.0
+Predata_in_saptamana: 7
+Deadline: 5
+Feedback: -
+
+Tema: 2
+Nota: 10.0
+Predata_in_saptamana: 7
+Deadline: 3
+Feedback: -
+
+Tema: 10
+Nota: 3.0
+Predata_in_saptamana: 11
+Deadline: 12
+Feedback: -
+
+Tema: 4
+Nota: 10.0
+Predata_in_saptamana: 11
+Deadline: 6
+Feedback: -
+
+Tema: 13
+Nota: 6.0
+Predata_in_saptamana: 14
+Deadline: 14
+Feedback: -
+
+Tema: 12
+Nota: 3.5
+Predata_in_saptamana: 14
+Deadline: 13
+Feedback: Ai intarziat 1 saptamana
+

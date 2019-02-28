@@ -1,0 +1,19 @@
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+
+}
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.data0.chart-pie { -fx-pie-color: #ff0000; }
+.data1.chart-pie { -fx-pie-color: #444444; }
+.chart-legend{
+    -fx-background-color: #6ad6ff;
+}

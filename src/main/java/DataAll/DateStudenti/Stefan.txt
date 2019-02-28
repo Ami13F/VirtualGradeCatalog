@@ -1,0 +1,38 @@
+Tema: 13
+Nota: 10.0
+Predata_in_saptamana: 14
+Deadline: 14
+Feedback: -
+
+Tema: 1
+Nota: 8.0
+Predata_in_saptamana: 14
+Deadline: 2
+Feedback: -
+
+Tema: 4
+Nota: 8.5
+Predata_in_saptamana: 14
+Deadline: 5
+Feedback: -
+
+Tema: 2
+Nota: 1.0
+Predata_in_saptamana: 7
+Deadline: 3
+Feedback: Ai intarziat mai mult de 2 saptamani.
+      Ai 1,sorry.
+
+Tema: 6
+Nota: 8.5
+Predata_in_saptamana: 7
+Deadline: 7
+Feedback: -
+
+Tema: 8
+Nota: 1.0
+Predata_in_saptamana: 14
+Deadline: 9
+Feedback: Ai intarziat mai mult de 2 saptamani.
+      Ai 1,sorry.
+
